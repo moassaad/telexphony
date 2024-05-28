@@ -1,0 +1,20 @@
+$grid-cols: 100;
+@for $i from 1 through $grid-cols {
+    .col-#{$i} {
+        width: percentage($i / $grid-cols);
+    }
+}
+
+$list-width: 1920, 1500, 1080, 1250, 727, 640, 150, 140, 100;
+@each $width in $list-width {
+    .max-width-#{$width}p {
+        max-width: #{$width}px;
+    }
+    .w-#{$width}p {
+        width: #{$width}px;
+    }
+}
+
+.fit-content {
+    width: fit-content;
+}

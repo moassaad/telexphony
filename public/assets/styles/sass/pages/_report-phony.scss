@@ -1,0 +1,20 @@
+.sections-report-phony {
+    //  background-color: rgb(186, 221, 255); 
+    background-image: url("../../images/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    // text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: calc(750px);
+    display: flex;
+    align-items: center;
+    .section-report-phony {
+        .form-report-phony {
+            background-color: #e4e4e4;
+        }
+    }
+}

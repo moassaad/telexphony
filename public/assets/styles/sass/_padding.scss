@@ -1,0 +1,31 @@
+.padding-0-auto {
+    padding: 0 auto;
+}
+.padding-auto-0 {
+    padding: auto 0;
+}
+$counter-padding: 0;
+@for $i from 1 through 10 {
+    .padding-#{$counter-padding+5} {
+        padding: #{$counter-padding+5}px;
+    }
+    .padding-0-#{$counter-padding+5} {
+        padding: 0 #{$counter-padding+5}px;
+    }
+    .padding-#{$counter-padding+5}-0 {
+        padding: #{$counter-padding+5}px 0;
+    }
+    .padding-top-#{$counter-padding+5} {
+        padding-top: #{$counter-padding+5}px;
+    }
+    .padding-right-#{$counter-padding+5} {
+        padding-right: #{$counter-padding+5}px;
+    }
+    .padding-bottom-#{$counter-padding+5} {
+        padding-bottom: #{$counter-padding+5}px;
+    }
+    .padding-left-#{$counter-padding+5} {
+        padding-left: #{$counter-padding+5}px;
+    }
+    $counter-padding: $counter-padding + 5;
+}

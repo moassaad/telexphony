@@ -1,0 +1,72 @@
+.sections-panner {
+    .section-panner {
+        color: white;
+        text-align: center;
+        .panner-section {
+            h1 {
+                white-space: pre-line;
+            }
+            // p {
+            //     margin-bottom: 50px;
+            // }
+            .form-search {
+                .custom-button-search {
+                    border: 1px dashed white;
+                    margin: 0 10px;
+                    transition: all 0.4s ease;
+                    &:hover {
+                        background-color: white;
+                        color: #002185;
+                        opacity: 1;
+                        font-family: "semi-bold-cairo";
+                    }
+                }
+            }
+        }
+    }
+}
+.section-body-phony-list {
+    .list-cards {
+        .phony-list-card {
+            border-style: solid;
+            border-color: #e4e4e4;
+            border-left-width: 4px;
+            border-right-width: 4px;
+            .data-card {
+                .card-baisc-data {
+                    .card-data-bold {
+                        font-family: "semi-bold-cairo";
+                        .report-text {
+                            background-color: whitesmoke;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.status {
+    & {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    &-stolen {
+        background-color: #ff7070;
+    }
+    &-missing {
+        background-color: #ffe570;
+    }
+    
+    &-found {
+        background-color: #75ff70;
+    }
+}
+.last-update {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #dbdbdb;
+}
+

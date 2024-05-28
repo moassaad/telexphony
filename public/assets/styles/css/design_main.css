@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* ---------- Start Nav ---------- */
+
+nav {
+    background-color: #d6d6d6;
+}
+
+.nav-logo {
+    background-color: darkgray;
+    width:15%;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.nav-logo-statment {
+    color: rgb(0, 133, 33);
+}
+
+.nav-menu {
+    background-color: gray;
+    list-style: none;
+    width:50%;
+    padding: 1%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+.nav-menu li {
+    background-color: gray;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.nav-menu-list{
+    color: black;
+    border:1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-menu-link :hover {
+    color:white;
+    border:1px solid white;
+}
+
+.nav-report {
+    background-color: darkgray;
+    width:15%;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.nav-button-report {
+    color: black;
+    border:1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-link-report :hover {
+    color: rgb(0, 133, 33);
+    border:1px solidrgb(0, 133, 33); 
+    background-color: #d6d6d6;
+}
+
+.nav-login {
+    background-color: gray;
+    width:10%;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.nav-button-login {
+    color: white;
+    border:1px solid black;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-link-login :hover {
+    color: black;
+    border:1px solid black;
+    background-color: white;
+}
+
+.nav-logo,
+.nav-menu,
+.nav-menu li,
+.nav-menu-link,
+.nav-report,
+.nav-login,
+.nav-button-report,
+.nav-button-login {
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-logo-link,
+.nav-menu-link ,
+.nav-button-report,
+.nav-button-login {
+    text-decoration:none;
+}
+
+/* ---------- End Nav ---------- */
+
+/* ---------- Start Section Search ---------- */
+
+.article-search {
+    background-color: #c5c5c5;
+}
+
+.section-search {
+    background-color: #808080;
+    text-align: center;
+    font-size:40px;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.form-search {
+    background-color: white;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.form-input-search {
+    background-color: rgb(252, 252, 252);
+    height: 30px;
+    width: 50%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.form-submit-search {
+    color: rgb(0, 133, 33);
+    background-color: rgb(252, 252, 252);
+    border: 1px dashed black;
+    height: 30px;
+    width: 10%;
+    font-size:15px;
+}
+
+.subtitle-page {
+    background-color: #808080;
+    padding: 30px;
+    font-size: 25px;
+    
+}
+
+.subtitle-using {
+    background-color: rgb(216, 255, 226);
+    border-left: 3px solid rgb(0, 133, 33);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* ---------- End Section Search ---------- */
+
+/* ---------- Start Section Using ---------- */
+
+.using-step {
+    background-color: #c5c5c5;
+    width: 100%;
+    text-align: center;
+}
+
+.using {
+    background-color:brown;
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    padding: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.img-using {
+    background-color: #808080;
+}
+
+.title-using {
+    background-color: #d6d6d6;
+    font-size: 18px;
+}
+
+.text-using {
+    background-color: blueviolet;
+    font-size: 14px;
+}
+
+.img-using,
+.title-using,
+.text-using  {
+    width: 100%;
+}
+
+.article-search,
+.article-using {
+    margin-bottom:5%;
+}
+
+/* ---------- End Section Using ---------- */
+
+/* ---------- Start Footer ---------- */
+
+footer {
+    background-color: black;
+}
+
+.article-footer {
+    background-color: #808080;
+    width: 100%;
+}
+
+.section-footer-logo {
+    background-color: blue;
+    width: 20%;
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-logo-statment {
+    border: 1px solid black;
+}
+
+.section-footer-contact {
+    background-color: blueviolet;
+    width: 50%;
+}
+
+.footer-contact-title {
+    color: white;
+    border-bottom: 1px solid white;
+    width: fit-content;
+}
+
+.footer-contact-list {
+    width: fit-content;
+    padding: 5px;
+    margin-left: 5%;
+}
+
+.footer-contact-title-statement {
+    width: fit-content;
+}
+
+.footer-contact-statement {
+    width: fit-content;
+    color: aliceblue;
+}
+
+.footer-contact-link {
+    color: black;
+}
+
+.footer-contact-statement :hover {
+    color: white;
+}
+
+.footer-contact-title-statement,
+.footer-contact-statement {
+    display: inline-block;
+}
+
+.section-footer-menu {
+    background-color: brown;
+    width: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.footer-menu-link {
+    color: black;
+}
+
+.footer-menu-link :hover {
+    color: white;
+}
+
+.footer-menu-list {
+    background-color: #808080;
+    width: fit-content;
+    padding: 2px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+
+.footer-menu,
+.footer-menu-link,
+.footer-contact-list,
+.footer-contact-link {
+    text-decoration: none;
+    list-style: none;
+}
+
+.section-footer-logo,
+.footer-logo-statment,
+.section-footer-contact,
+.section-footer-menu {
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.article-copyright {
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* ---------- End Footer ---------- */
+
+

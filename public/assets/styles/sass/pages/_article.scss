@@ -1,0 +1,41 @@
+.article {
+    padding: 20px;
+    .title {
+        font-family: "bold-cairo";
+        font-size: 28px;
+    }
+    .subtitle {
+        font-family: "bold-cairo";
+        font-size: 24px;
+        padding: 0 8px;
+    }
+    .subtitle-1 {
+        font-family: "bold-cairo";
+        font-size: 20px;
+        padding: 0 16px;
+    }
+    .subtitle-2 {
+        font-family: "bold-cairo";
+        font-size: 16px;
+        padding: 0 24px;
+    }
+    .paragraph {
+        font-family: "regular-cairo";
+        font-size: 14px;
+        padding: 0 32px;
+    }
+    .link {
+        display: inline-block;
+        color: #002185;
+        transition: all 0.4s ease;
+        &:hover {
+            color: black;
+        }
+    }
+    .bold {
+        font-family: "bold-cairo";
+    }
+    .center {
+        text-align: center;
+    }
+}

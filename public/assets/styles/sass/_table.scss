@@ -1,0 +1,26 @@
+table {
+    padding: 20px;
+    box-sizing: border-box;
+    thead {
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 50px;
+        position: sticky;
+        tr {
+            width: 100%;
+        }
+    }
+    tbody {
+        color: black;
+        tr {
+            text-align: center;
+            td {
+                padding: 5px;
+            }
+        }
+        tr:nth-child(even) {
+            background-color: gainsboro;
+        }
+    }
+}

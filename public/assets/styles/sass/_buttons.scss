@@ -1,0 +1,71 @@
+.btn {
+    & {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        padding: 5px 20px;
+        font-family: "light-cairo";
+        background-color: transparent;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+    &.btn-primary {
+        background-color: #002185;
+        color: white;
+    }
+    &.btn-danger {
+        background-color: #ff422a;
+        color: white;
+    }
+    &.btn-successfuly {
+        background-color: #00bd00;
+        color: white;
+    }
+    &.btn-black {
+        background-color: black;
+        color: white;
+    }
+    &.btn-white {
+        background-color: white;
+        color: black;
+    }
+}
+.btn-icon {
+    & {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        padding: 5px;
+        background-color: transparent;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+    &.btn-primary {
+        background-color: #002185;
+        color: white;
+    }
+    &.btn-danger {
+        background-color: #ff422a;
+        color: white;
+    }
+    &.btn-success {
+        background-color: #00bd00;
+        color: white;
+    }
+    &.btn-black {
+        background-color: black;
+        color: white;
+    }
+    &.btn-white {
+        background-color: white;
+        color: black;
+    }
+    &.btn-whitegray {
+        background-color: #dbdbdb;
+        color: black;
+    }
+}

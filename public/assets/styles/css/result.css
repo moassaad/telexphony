@@ -1,0 +1,127 @@
+.hidden {
+    visibility: hidden;
+}
+
+.article-result {
+    /* background-color: #CCC; */
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.title-result {
+    color: white;
+}
+
+.title-result h1 {
+    font-size: 40px;
+}
+
+.result {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.result-card {
+    border-left: 10px solid #a0b8ff;
+    border-top: 1px solid #a0b8ff;
+    border-bottom: 1px solid #a0b8ff;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+.title-card {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+.phone-name {
+    width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.general-status {
+    margin-left: 10px;
+}
+
+.status-stolen {
+    background-color: #ff7070;
+}
+
+.status-missing {
+    background-color: #ffe570;
+}
+
+.status-found {
+    background-color: #75ff70;
+}
+
+.last-update {
+    background-color: #dbdbdb;
+}
+
+.status,
+.last-update {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.data-card {
+    padding: 10px;
+    
+}
+
+.card-baisc-data section {
+    display: inline-block;
+    min-width: 250px;
+    max-width: 30%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 5px;
+    vertical-align: top;
+    
+}
+
+.card-baisc-data section p {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-action-button section {
+    display: inline-block;
+    min-width: 250px;
+    max-width: 30%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.card-action-button a {
+    text-decoration: none;
+    width: 100px;
+}
+
+.card-action-button a p {
+    background-color: #002185;
+    color: white;
+}
+
+.card-action-button a :hover {
+    background-color: #a0b8ff;
+    color: black;
+}
+

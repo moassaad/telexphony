@@ -1,0 +1,14 @@
+.contact-us {
+    background-color: whitesmoke;
+}
+
+@media screen and (max-width: 727px){
+    .contact-us{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 680px){
+    .contact-us{
+        width: 100%;
+    }
+}

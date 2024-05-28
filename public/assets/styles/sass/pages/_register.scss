@@ -1,0 +1,26 @@
+.sections-singup {
+    //  background-color: rgb(186, 221, 255); 
+    background-image: url("../../images/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    // text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: calc(750px);
+    display: flex;
+    align-items: center;
+    .section-singup {
+        // box-sizing: border-box;
+        .form-singup {
+            // display: flex;
+            // flex-wrap: wrap;
+            // max-width: 1250px;
+            // padding: 10px;
+            // margin: 0 auto;
+            background-color: #e4e4e4;
+        }
+    }
+}

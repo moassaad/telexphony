@@ -1,0 +1,134 @@
+.hidden {
+    visibility: hidden;
+}
+
+.article-my-phoney {
+    text-align: center;
+    background-color: #CCC;
+    padding-top: 100px;
+}
+
+.my-phoney-list {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.my-phoney-list-card {
+    border-left: 10px solid #a0b8ff;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+.title-list-card {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+.my-phone-name {
+    width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.my-general-status {
+    margin-left: 10px;
+}
+
+.status-stolen {
+    background-color: #ff7070;
+}
+
+.status-missing {
+    background-color: #ffe570;
+}
+
+.status-found {
+    background-color: #75ff70;
+}
+
+.last-update {
+    background-color: #dbdbdb;
+}
+
+.status,
+.last-update {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.my-phoney-data-card {
+    padding: 10px;
+    
+}
+
+.my-phoney-card-baisc-data section {
+    display: inline-block;
+    min-width: 250px;
+    max-width: 30%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 5px;
+    vertical-align: top;
+    
+}
+
+.my-phoney-card-baisc-data section p {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+.card-action-button section {
+    display: inline-block;
+    min-width: 250px;
+    max-width: 30%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.card-action-button a {
+    text-decoration: none;
+    width: 100px;
+}
+
+.card-action-button a p {
+    background-color: #002185;
+    color: white;
+}
+
+.card-action-button a .link-delete {
+    background-color: rgb(250, 60, 26);
+    color: white;
+}
+
+.card-action-button a :hover {
+    background-color: #a0b8ff;
+    color: black;
+}
+
+.card-action-button a:hover .link-delete {
+    background-color: rgb(255, 148, 129);
+    color: black;
+}
+
+/* ---------- Start Media Screen ---------- */
+
+@media screen and (max-width: 616px) {
+    .my-general-status span {
+        display: block;
+        width: fit-content;
+    }
+
+}
+
+/* ---------- End Media Screen ---------- */

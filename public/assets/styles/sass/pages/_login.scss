@@ -1,0 +1,91 @@
+.sections-login {
+    //  background-color: rgb(186, 221, 255); 
+    background-image: url("../../images/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    // height: calc(750px);
+    display: flex;
+    align-items: center;
+    .section-login {        
+        .form-login {
+            flex-direction: column;
+            width: 350px;
+            padding: 20px;
+            margin: 0 auto;
+            background-color: #e4e4e4;
+            .form-section-input {
+                margin: 10px 0;
+                label {
+                    display: flex;
+                    
+                }
+                input {
+                    width: 100%;
+                }
+                
+            }
+            .form-section-button {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin: 10px 0;
+                .btn {
+                    margin: 5px 0;
+                }
+            }
+        }
+    }
+}
+
+// .section-form-login {
+    /* background-color: rgba(109, 109, 109, 0.5); */
+    // width: 40%;
+    // padding: 5%;
+    // margin-left: 25%;
+    // margin-right: 25%;
+    // margin-top: 5%;
+    // margin-bottom: 5%;
+
+// }
+
+// .section-form-login header {
+//     text-align: center;
+//     width: 100%;
+// }
+
+// .section-form-login header h1 {
+//     color: white;
+//     font-size: 30px;
+//     margin-bottom: 10px;
+//     padding-bottom: 10px;
+// }
+
+// .form-login {
+//     background-color: rgb(238, 238, 238);
+//     padding: 20px;
+//     /* border: 3px solid #002185; */
+// }
+
+// .forgot-your-password a {
+//     color: #002185;
+// }
+
+/* ---------- Start Media Screen ---------- */
+
+@media screen and (max-width: 727px) {
+    .section-form-login
+    {
+        width: 100%;
+        padding: 5%;
+        margin: 1% auto;
+        box-sizing: border-box;
+    }
+}
+
+/* ---------- End Media Screen ---------- */

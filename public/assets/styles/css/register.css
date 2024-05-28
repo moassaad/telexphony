@@ -1,0 +1,81 @@
+.singup {
+    background-color: cadetblue;
+    background-image: url("../img/Space-Background-Image-5-1024x682.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding: 5%;
+}
+
+.section-form-singup {
+    /* background-color: aquamarine; */
+    padding: 5%;
+
+}
+
+.section-form-singup header {
+    text-align: center;
+    width: 100%;
+}
+
+.section-form-singup header h1 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.form-singup {
+    background-color: rgba(255, 255, 255, 0.726);
+    padding: 5%;
+}
+
+.input-col-1 {
+    width: 96%;
+    margin: 2%;
+}
+
+.input-col-2 {
+    width: 46%;
+    display: inline-block;
+    margin: 2%;
+}
+
+.input-col-2-edit3 {
+    width: 47%;
+    display: inline-block;
+    margin: 2%;
+}
+
+.input-col-4 {
+    display: inline-block;
+    width: 21%;
+    margin: 2%;
+}
+
+.i-have-account a {
+    color: #002185;
+    text-align: center;
+}
+
+.i-have-account a p {
+    padding: 10px;
+}
+
+/* ---------- Start Media Screen ---------- */
+
+@media screen and (max-width: 727px) {
+    
+    .input-col-2 {
+        width: 96%;
+        margin: 2%;
+    }
+    
+    .input-col-4 {
+        width: 47%;
+        margin: 1%;
+    }
+}
+
+/* ---------- End Media Screen ---------- */

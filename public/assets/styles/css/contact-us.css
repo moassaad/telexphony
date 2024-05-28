@@ -1,0 +1,141 @@
+.article-contact-us {
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+}
+
+.section-contact-us {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header-contact-us h1 {
+    font-size: 400%;
+    color: white;
+    padding: 10px;
+}
+
+.header-contact-us p {
+    font-size: 100%;
+    color: white;
+    padding: 10px;
+}
+
+.contact {
+    width: 92%;
+    padding: 2%;
+    margin: 2%;
+}
+
+.contact-me header h2{
+    color: #3f3f3f;
+}
+
+.contact-me header {
+    padding-left: 10px;
+}
+
+.contact-me .contact-list {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-left: 5px solid #002185;
+}
+
+.contact-me .contact-title-statement {
+    display: inline-block;
+}
+
+.contact-me .contact-link {
+    text-decoration: none;
+    color: #3f3f3f;
+}
+
+.contact-me .contact-link:hover {
+    color: #002185;
+}
+
+.contact-me .contact-statement {
+    display: inline-block;
+}
+
+.contact-us {
+    background-color: #f0f0f0;
+}
+
+.contact-me,
+.contact-us {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.form-contact {
+    padding: 2%;
+}
+
+.form-contact-section-input {
+    padding: 2%;
+}
+
+.form-contact-lable {
+    padding-left: 2%;
+    padding-right: 2%;
+    /* font-size:small; */
+    /* height: 30px; */
+}
+
+.form-contact-input {
+    background-color:#dddddd;
+    padding-left: 2%;
+    padding-right: 2%;
+    /* height: 40px; */
+}
+
+.form-contact-input:focus {
+    outline: none;
+    background-color: white;
+    border: 1px dashed black;
+}
+
+.form-contact-lable,
+.form-contact-input {
+    width: 96%;
+    display: block;
+    height: 40px;
+}
+
+.form-contact-textarea {
+    height: 200px;
+}
+
+.submit-message {
+    background-color: #002185;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-message:hover {
+    background-color: white;
+    color: #002185;
+}
+
+/* ---------- Start Media Screen ---------- */
+
+@media screen and (max-width: 727px) {
+    .contact-me, 
+    .contact-us {
+        display: block;
+        width: 100%;
+    }
+}
+
+/* ---------- End Media Screen ---------- */

@@ -1,0 +1,106 @@
+.alert {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'bold-cairo';
+    text-align: start;
+    font-size: 12px;
+    width: 100%;
+    &.alert-danger {
+        color: #ff7070;
+    }
+    &.alert-center {
+        text-align: center;
+    }
+}
+.is-invalid {
+    border: 1px solid #ff7070;
+    background-color: #f59595;
+}
+.requierd {
+    &::after {
+        content: "*";
+        color: red;
+    }
+}
+
+.box {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'bold-cairo';
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    &-success {
+        border-color: #3bad3b;
+        background-color: #b1f1b1;
+        color: #008000;
+    }
+    &-danger {
+        border-color: #ad3b3b;
+        background-color: #f1b1b1;
+        color: #800000;
+    }
+    &-normal {
+        border-color: #524949;
+        background-color: #e4e4e4;
+        color: #000000;
+    }
+}
+
+.messages {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'bold-cairo';
+    font-size: 14px;
+    width: 250px;
+    min-height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    position: fixed;
+    z-index: 100;
+    bottom: 20px;
+    right: 80px;
+    box-shadow: black 0px 0px 10px -5px;
+    background-color: #dfdfdf;
+    opacity: 0;
+    transform: translate((250px + 80px + 10px), 0px);
+    transition: all 0.5s ease;
+    animation-name: messages;
+    animation-duration: 6s;
+    animation-delay: 0.5s;
+    p {
+        font-family: 'bold-cairo';
+        font-size: 14px;
+    }
+    &.message-success {
+        background-color: #70ff70;
+    }
+    &.message-error {
+        background-color: #ff7070;
+    }
+}
+/* The animation code */
+@keyframes messages {
+    0%  {
+        transform: translate((250px + 80px + 10px), 0px);
+        opacity: 0;
+    }
+    5%  {
+        transform: translate(0px, 0px);
+        opacity: 1;
+    }
+    
+    90% {
+        transform: translate(0px, 0px);
+            opacity: 1;
+        }
+    100% {
+        transform: translate((250px + 80px + 10px), 0px);
+            opacity: 0;
+    }
+  }

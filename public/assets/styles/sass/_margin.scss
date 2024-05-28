@@ -1,0 +1,31 @@
+.margin-0-auto {
+    margin: 0 auto;
+}
+.margin-auto-0 {
+    margin: auto 0;
+}
+$counter-margin: 0;
+@for $i from 1 through 10 {
+    .margin-#{$counter-margin+5} {
+        margin: #{$counter-margin+5}px;
+    }
+    .margin-0-#{$counter-margin+5} {
+        margin: 0 #{$counter-margin+5}px;
+    }
+    .margin-#{$counter-margin+5}-0 {
+        margin: #{$counter-margin+5}px 0;
+    }
+    .margin-top-#{$counter-margin+5} {
+        margin-top: #{$counter-margin+5}px;
+    }
+    .margin-right-#{$counter-margin+5} {
+        margin-right: #{$counter-margin+5}px;
+    }
+    .margin-bottom-#{$counter-margin+5} {
+        margin-bottom: #{$counter-margin+5}px;
+    }
+    .margin-left-#{$counter-margin+5} {
+        margin-left: #{$counter-margin+5}px;
+    }
+    $counter-margin: $counter-margin + 5;
+}

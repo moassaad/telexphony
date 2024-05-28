@@ -1,0 +1,15 @@
+form {
+    display: flex;
+    width: 100%;
+    input,
+    select,
+    textarea {
+        padding: 5px 10px;
+        background-color: #cccccc;
+        // border: 1px solid transparent;
+        &:focus {
+            background-color: white;
+            // border: 1px solid black;
+        }
+    }
+}

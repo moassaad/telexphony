@@ -1,0 +1,33 @@
+$list-height: 1920, 1080, 1250, 565, 555, 300, 250, 200, 150, 100, 75, 72, 64, 36, 32, 1;
+@each $height in $list-height {
+    .height-#{$height}p {
+        height: #{$height}px;
+    }
+    .max-height-#{$height}p {
+        max-height: #{$height}px;
+    }
+    .min-height-#{$height}p {
+        min-height: #{$height}px;
+    }
+}
+
+.h-fit-content {
+    height: fit-content;
+}
+// .height {
+//     &-32p {
+//         height: 32px;
+//     }
+//     &-36p {
+//         height: 36px;
+//     }
+//     &-64p {
+//         height: 64px;
+//     }
+//     &-72p {
+//         height: 72px;
+//     }
+//     &-75p {
+//         height: 75px;
+//     }
+// }

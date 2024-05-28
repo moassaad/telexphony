@@ -1,0 +1,74 @@
+.report-phoney {
+    /* background-color: #e6e6e6; */
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding-top: 5%;
+}
+
+.section-form-report-phoney header {
+    text-align: center;
+    width: 100%;
+}
+
+.section-form-report-phoney header h1 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.form-report-phoney {
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+}
+
+.input-col-1 {
+    width: 96%;
+    margin: 2%;
+}
+
+.input-col-2 {
+    width: 46%;
+    display: inline-block;
+    margin: 2%;
+}
+
+.input-col-2-edit3 {
+    width: 47%;
+    display: inline-block;
+    margin: 2%;
+}
+
+.input-col-4 {
+    display: inline-block;
+    width: 21%;
+    margin: 2%;
+}
+
+.section-form-report-phoney-note {
+    height: 100px;
+}
+
+/* ---------- Start Media Screen ---------- */
+
+@media screen and (max-width: 727px) {
+    
+    .input-col-2 {
+        width: 96%;
+        margin: 2%;
+    }
+    
+    .input-col-4 {
+        width: 47%;
+        margin: 1%;
+    }
+}
+
+@media screen and (max-width: 616px) {
+    
+}
+
+/* ---------- End Media Screen ---------- */
