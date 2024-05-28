@@ -31,9 +31,9 @@ It is an web application based on the principle of reporting and searching for r
 
 ## Why  - Telexphony - لماذا
 
-لا لأخلاقيات مثل السرقة وغيرها من الافعال الغير صحيحه وانه على هذا الاساس بنى التطبيق للمساهمة بشكل جزئي في حل مشكله السرقة وبالتحديد ( الهواتف المسروقه ) عبر الابلاغ برقم الهوية الخاص بالهاتف ( IMEI ). 
+لا لأخلاقيات مثل السرقة وغيرها من الافعال الغير صحيحه وانه على هذا الاساس بنى التطبيق للمساهمة بشكل جزئي في الحد من مشكله السرقة وبالتحديد ( الهواتف المسروقه ) وتداول الهواتف المستعمله بأمان عبر رقم الهوية الخاص بالهاتف ( IMEI ). 
 
- No to ethics such as theft and other incorrect actions, and on this basis he built the application to partially contribute to solving the problem of theft, specifically ( stolen phones ) by reporting the phone’s identity number ( IMEI ). 
+No to ethics such as theft and other incorrect actions, and on this basis the application was built to partially contribute to reducing the problem of theft, specifically ( stolen phones ) and trading used phones safely via the phone’s identity number ( IMEI ).
 
 
 ## Skills - مهارات
