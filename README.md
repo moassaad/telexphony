@@ -1,9 +1,9 @@
-<h1 
+<h1 align="center"
 style="
     display: flex;
     align-items: center;
-    justify-content:center;
-    height:150px;
+    justify-content: center;
+    height: 150px;
 ">
 <a 
 href="https://telexphony.000.pe" 
@@ -11,13 +11,13 @@ target="_blank"
 style="
     text-decoration:none;
     display: flex;
-    font-size: 30px;
+    font-size: 50px;
     color: black;
     align-items:baseline;
 ">Tele<span 
 style="
     color: #002185;
-    font-size:36px
+    font-size:56px
 ">X</span>phony</a>
 </h1>
 
