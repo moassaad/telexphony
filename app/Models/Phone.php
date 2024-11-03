@@ -36,5 +36,26 @@ class Phone extends Model
             },
         );
     }
-    
+    public function scopeSearchWithIMEI($query, string $imei) 
+    {
+        return $query->join("User","Phone.UserID","=","User.UserID")
+        ->join("Report", "Report.PhoneID", "=", "Phone.PhoneID")
+        ->where(["Phone.imei"=>$imei])
+        ->orWhere([ "Phone.imei2"=>$imei])->addSelect([
+            "User.UserID",
+            "User.full_name",
+            "User.phone_number", 
+            "Phone.PhoneID", 
+            "Phone.phone_name", 
+            "Phone.model", 
+            "Phone.serial_number", 
+            "Phone.imei", 
+            "Phone.imei2",
+            "Report.ReportID", 
+            "Report.report_text", 
+            "Report.status", 
+            "Report.updated_at", 
+        ]);
+    }
+
 }
