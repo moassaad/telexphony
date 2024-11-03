@@ -1,0 +1,52 @@
+<?php
+
+namespace App\Services\API;
+
+class APIResource
+{
+    private $status;
+    private $message;
+    private $data;
+    private $errors;
+    public function __construct()
+    {
+        $this->status = 200;
+        $this->message = "";
+        $this->data = null;
+        $this->errors = [];
+    }
+    public function success($data, $message)
+    {
+        $this->data = $data;
+        $this->message = $message;
+        return $this->format();
+    }
+    public function error($errors, $message)
+    {
+        $this->errors = $errors;
+        $this->message = $message;
+        return $this->format();
+    }
+    private function format()
+    {
+        return [
+            'status'    =>  $this->status,
+            'message'   =>  $this->message,
+            'data'      =>  $this->data,
+            'errors'    =>  $this->errors,
+        ];
+    }
+    // public function apiResponse($data, $message, $status)
+    // {
+    //     $this->render(data:$data, message:$message, status:$status);
+    //     return $this->data;
+    // }
+    // private function render(...$values)
+    // {
+    //     $this->data = [
+    //         'status'=>$values['status'],
+    //         'message'=>$values['message'],
+    //         'data'=>$values['data'],
+    //     ];
+    // }
+}
